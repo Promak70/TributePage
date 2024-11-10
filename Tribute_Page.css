@@ -1,0 +1,197 @@
+/* #main { 
+    max-width: 800px;
+    margin: 0 auto;
+    
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+   
+    margin-bottom: 20px;
+    display: flex;
+   
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    margin: 20px 0;
+    line-height: 1.6;
+    
+}
+
+#tribute-link {
+    display: inline-block;
+    
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tribute-link:hover {
+    background-color: #0056b3;
+  
+}*/
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centering the content and setting a font */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Main Container */
+#main {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Styling */
+#title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Image Section Styling */
+#img-div {
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Tribute Information Styling */
+#tribute-info {
+    margin: 20px 0;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Link Styling */
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+/* Timeline Section Styling */
+#timeline {
+    margin: 30px 0;
+}
+
+#timeline h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#timeline ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#timeline li {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+}
+
+#timeline li strong {
+    color: #007bff;
+}
+/* Timeline Section Styling */
+#timeline {
+    margin: 30px 0;
+}
+
+#timeline h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#timeline ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#timeline li {
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+#timeline li p {
+    margin-top: 8px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+#timeline li strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Add spacing and indent for nested paragraphs under dates */
+#timeline li p {
+    padding-left: 15px;
+    line-height: 1.5;
+}
